@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tcbb/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/tcbb/static/js/main.eeab0b4f.chunk.js",
+    "main.js.map": "/tcbb/static/js/main.eeab0b4f.chunk.js.map",
+    "runtime-main.js": "/tcbb/static/js/runtime-main.3c4250b8.js",
+    "runtime-main.js.map": "/tcbb/static/js/runtime-main.3c4250b8.js.map",
+    "static/js/2.1f3dcef4.chunk.js": "/tcbb/static/js/2.1f3dcef4.chunk.js",
+    "static/js/2.1f3dcef4.chunk.js.map": "/tcbb/static/js/2.1f3dcef4.chunk.js.map",
+    "static/js/3.f45ae740.chunk.js": "/tcbb/static/js/3.f45ae740.chunk.js",
+    "static/js/3.f45ae740.chunk.js.map": "/tcbb/static/js/3.f45ae740.chunk.js.map",
+    "index.html": "/tcbb/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/tcbb/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.1f3dcef4.chunk.js.LICENSE.txt": "/tcbb/static/js/2.1f3dcef4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/tcbb/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c4250b8.js",
+    "static/js/2.1f3dcef4.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.eeab0b4f.chunk.js"
+  ]
+}
