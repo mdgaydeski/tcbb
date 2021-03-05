@@ -12,19 +12,19 @@ const Navigation = () => (
             <div className='collapse navbar-collapse' id='navbarCollapse'>
                 <ul className='navbar-nav w-100 justify-content-around'>
                     <li className='nav-item'>
-                        <NavLink className='nav-link' to='/' exact>Home</NavLink>
+                        <NavLink className='nav-link' to='/tcbb/' exact>Home</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink className='nav-link' to='/about' exact>About</NavLink>
+                        <NavLink className='nav-link' to='/tcbb/about' exact>About</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink className='nav-link' to='/events'>Events</NavLink>
+                        <NavLink className='nav-link' to='/tcbb/events'>Events</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink className='nav-link' to='/media'>Media</NavLink>
+                        <NavLink className='nav-link' to='/tcbb/media'>Media</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink className='nav-link' to='/contact'>Contact</NavLink>
+                        <NavLink className='nav-link' to='/tcbb/contact'>Contact</NavLink>
                     </li>
                 </ul>
             </div>
