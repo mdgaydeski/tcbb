@@ -1,19 +1,18 @@
 import React, {useState, useEffect} from 'react';
-import MusicDirectorBio from '../components/MusicDirectorBio';
-import MemberListing from '../components/MemberListing';
 
-const Members = () => {
-    const [memberList, setMemberList] = useState([]);
+const MusicDirectorBio = () => {
+    const [director, setDirector] = useState(null);
 
     const query = `
 {
-    memberCollection {
+    musicDirectorCollection {
         items {
             name
-            instrument {
-                name
+            biography
+            photo {
+                description
+                url
             }
-            boardMember
         }
     }
 }
@@ -34,20 +33,20 @@ const Members = () => {
               console.error(error);
             }
             
-            setMemberList(data.memberCollection.items);
+            setDirector(data.musicDirectorCollection.items[0]);
         });
     }, [query]);
 
-      return (
-          <>
-            <h1>Who We Are</h1>
-            <h2>Music Director</h2>
-            <MusicDirectorBio />
-            <h2>Current Members</h2>
-            {memberList.map(member => <MemberListing member={member} key={member.name} />)}
-          </>
-      )
+    return (
+        director
+        ? <>
+            <h3>{director.name}</h3>
+            <img src={director.photo.url} alt={director.photo.description} className='rounded float-md-start m-3' width='320' height='240' />
+            <p>{director.biography}</p>
+        </>
+        : null
+    );
 
 }
 
-export default Members;
+export default MusicDirectorBio;
