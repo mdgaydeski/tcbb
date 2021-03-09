@@ -6,6 +6,7 @@ import About from './sections/About';
 import Contact from './sections/Contact';
 import Events from './sections/Events';
 import Media from './sections/Media';
+import Members from './sections/Members';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -19,6 +20,7 @@ const App = () => (
                     <Switch>
                         <Route path='/tcbb/' exact component={Home} />
                         <Route path='/tcbb/about' component={About} />
+                        <Route path='/tcbb/members' component={Members} />
                         <Route path='/tcbb/events' component={Events} />
                         <Route path='/tcbb/media' component={Media} />
                         <Route path='/tcbb/contact' component={Contact} />

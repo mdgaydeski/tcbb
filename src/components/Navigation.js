@@ -18,6 +18,9 @@ const Navigation = () => (
                         <NavLink className='nav-link' to='/tcbb/about' exact>About</NavLink>
                     </li>
                     <li className='nav-item'>
+                        <NavLink className='nav-link' to='/tcbb/members' exact>Members</NavLink>
+                    </li>
+                    <li className='nav-item'>
                         <NavLink className='nav-link' to='/tcbb/events'>Events</NavLink>
                     </li>
                     <li className='nav-item'>
