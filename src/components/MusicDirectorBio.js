@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import Markdown from './Markdown';
 
 const MusicDirectorBio = () => {
     const [director, setDirector] = useState(null);
@@ -42,7 +43,7 @@ const MusicDirectorBio = () => {
         ? <>
             <h3>{director.name}</h3>
             <img src={director.photo.url} alt={director.photo.description} className='rounded float-md-start m-3' width='320' height='240' />
-            <p>{director.biography}</p>
+            <Markdown input={director.biography} />
         </>
         : null
     );
