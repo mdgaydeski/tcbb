@@ -56,7 +56,10 @@ const Events = () => {
     return (
         <>
             <h1>Events</h1>
-            {eventList.map(e => <EventListing event={e} key={e.title} />)}
+            <div className='d-flex flex-wrap justify-content-around'>
+                {eventList.map(e => <EventListing event={e} key={e.title} />)}
+            </div>
+            
         </>
     );
 }
