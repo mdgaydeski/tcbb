@@ -23,3 +23,9 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   border-radius: 1rem;
   padding-bottom: 3rem;
 }
+
+/* Keep scrollbar on modal open, which prevents underlying background/content from shifting */
+.modal-open {
+  padding: 0 !important;
+  overflow-y: auto;
+}
