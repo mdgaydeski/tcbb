@@ -10,7 +10,7 @@ const EventListing = ({ event }) => {
             <div className='card-body'>
                 <h3 className='card-title'>{event.title}</h3>
                 {event.performancesCollection.items.map(p => (
-                    <p className='card-text'>
+                    <div className='card-text mb-2'>
                         <strong>{p.datetime ? <DateFormat date={p.datetime} /> : 'Date/time TBA'}</strong><br />
                         {p.location
                             ? <>
@@ -19,12 +19,16 @@ const EventListing = ({ event }) => {
                                 {`${p.location.city}, ${p.location.state} ${p.location.zipCode}`}
                             </>
                             : 'Location TBA'
-                        
                         }<br />
-                    
-                        {p.livestreamUrl ? <a href={p.livestreamUrl} className='btn btn-primary' target='_blank' rel='noreferrer'>Watch live</a> : null}
-                    </p>
+                        <div className='d-flex justify-content-center my-1'>
+                            {p.livestreamUrl ? <a href={p.livestreamUrl} className='btn btn-primary w-50' target='_blank' rel='noreferrer'>Watch live</a> : null}   
+                        </div>
+                    </div>
                 ))}
+                <div className='d-flex justify-content-center'>
+                    <button className='btn btn-primary w-50'>Details</button>
+                </div>
+                
             </div>
         </article>
     );

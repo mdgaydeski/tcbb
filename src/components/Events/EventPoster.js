@@ -6,7 +6,7 @@ const EventPoster = ({ poster, slug }) => {
 
     return (
         <>
-            <img src={poster.url} alt={poster.description} className='card-image-top' data-bs-toggle='modal' data-bs-target={`#${modalId}`} />
+            <img src={poster.url} alt={poster.description} className='card-image-top w-100' data-bs-toggle='modal' data-bs-target={`#${modalId}`} />
         
             <div className='modal fade' id={modalId} aria-labelledby={`${modalId}Label`} aria-hidden='true'>
                 <div className='modal-dialog'>
@@ -14,7 +14,7 @@ const EventPoster = ({ poster, slug }) => {
                         <div className='modal-header'>
                             <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label='close' />
                         </div>
-                        <div className='modal-body'>
+                        <div className='modal-body my-0 mx-auto p-0'>
                             <img src={poster.url} alt={poster.description} className='modal-image' />
                         </div>
                         <div className='modal-footer' />

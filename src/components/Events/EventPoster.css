@@ -1,12 +1,6 @@
 .card-image-top {
     cursor: zoom-in;
-    max-width: 250px;
     object-fit: contain;
-}
-
-.modal-body {
-    margin: 0 auto;
-    padding: 0;
 }
 
 .modal-image {
