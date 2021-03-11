@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import EventListing from '../components/Events/EventListing';
+import {orderEventsByDate} from '../utils';
 
 const Events = () => {
     const [eventList, setEventList] = useState([]);
@@ -59,8 +60,9 @@ const Events = () => {
         });
     }, [query]);
 
-    const concerts = eventList.filter(e => e.eventType === 'Concert');
-    const otherEvents = eventList.filter(e => e.eventType === 'Other Event')
+    const upcomingEvents = eventList.filter(e => e.performancesCollection.items.some(p => p.datetime === null || new Date(p.datetime) >= new Date()));
+    const concerts = orderEventsByDate(upcomingEvents.filter(e => e.eventType === 'Concert'));
+    const otherEvents = orderEventsByDate(upcomingEvents.filter(e => e.eventType === 'Other Event'))
 
     return (
         <>

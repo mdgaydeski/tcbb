@@ -6,6 +6,7 @@ import './EventListing.css';
 
 const EventListing = ({ event }) => {
     const detailsModalId = `modal-${event.sys.id}-details`;
+    console.log(event.performancesCollection.items[0].datetime)
 
     return (
         <article className='card rounded-2 p-2 mb-3'>
