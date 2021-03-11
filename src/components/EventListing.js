@@ -1,5 +1,6 @@
 import React from 'react';
 import EventPoster from './EventPoster';
+import DateFormat from './DateFormat';
 import './EventListing.css';
 
 const EventListing = ({ event }) => {
@@ -10,7 +11,7 @@ const EventListing = ({ event }) => {
                 <h3 className='card-title'>{event.title}</h3>
                 {event.performancesCollection.items.map(p => (
                     <p className='card-text'>
-                        <strong>{p.datetime ? p.datetime : 'Date/time TBA'}</strong><br />
+                        <strong>{p.datetime ? <DateFormat date={p.datetime} /> : 'Date/time TBA'}</strong><br />
                         {p.location
                             ? <>
                                 {p.location.name}<br />
