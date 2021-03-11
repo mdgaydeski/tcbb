@@ -10,6 +10,7 @@ const Events = () => {
         items {
             title
             slug
+            description
             eventType
             poster {
                 description
@@ -19,6 +20,7 @@ const Events = () => {
             }
             performancesCollection (limit: 10) {
                 items {
+                    title
                     location {
                         name
                         address

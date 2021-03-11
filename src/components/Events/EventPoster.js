@@ -2,7 +2,7 @@ import React from 'react';
 import './EventPoster.css';
 
 const EventPoster = ({ poster, slug }) => {
-    const modalId = `modal-${slug}`;
+    const modalId = `modal-${slug}-poster`;
 
     return (
         <>
