@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/tcbb/static/css/main.5fad90ec.chunk.css",
-    "main.js": "/tcbb/static/js/main.830a95d2.chunk.js",
-    "main.js.map": "/tcbb/static/js/main.830a95d2.chunk.js.map",
-    "runtime-main.js": "/tcbb/static/js/runtime-main.979cf94c.js",
-    "runtime-main.js.map": "/tcbb/static/js/runtime-main.979cf94c.js.map",
-    "static/js/2.b779d397.chunk.js": "/tcbb/static/js/2.b779d397.chunk.js",
-    "static/js/2.b779d397.chunk.js.map": "/tcbb/static/js/2.b779d397.chunk.js.map",
-    "static/js/3.42f966cc.chunk.js": "/tcbb/static/js/3.42f966cc.chunk.js",
-    "static/js/3.42f966cc.chunk.js.map": "/tcbb/static/js/3.42f966cc.chunk.js.map",
+    "main.css": "/tcbb/static/css/main.a608a589.chunk.css",
+    "main.js": "/tcbb/static/js/main.b1211f38.chunk.js",
+    "main.js.map": "/tcbb/static/js/main.b1211f38.chunk.js.map",
+    "runtime-main.js": "/tcbb/static/js/runtime-main.0d5ef434.js",
+    "runtime-main.js.map": "/tcbb/static/js/runtime-main.0d5ef434.js.map",
+    "static/js/2.902df446.chunk.js": "/tcbb/static/js/2.902df446.chunk.js",
+    "static/js/2.902df446.chunk.js.map": "/tcbb/static/js/2.902df446.chunk.js.map",
+    "static/js/3.78ea79f6.chunk.js": "/tcbb/static/js/3.78ea79f6.chunk.js",
+    "static/js/3.78ea79f6.chunk.js.map": "/tcbb/static/js/3.78ea79f6.chunk.js.map",
     "index.html": "/tcbb/index.html",
-    "static/css/main.5fad90ec.chunk.css.map": "/tcbb/static/css/main.5fad90ec.chunk.css.map",
-    "static/js/2.b779d397.chunk.js.LICENSE.txt": "/tcbb/static/js/2.b779d397.chunk.js.LICENSE.txt",
+    "static/css/main.a608a589.chunk.css.map": "/tcbb/static/css/main.a608a589.chunk.css.map",
+    "static/js/2.902df446.chunk.js.LICENSE.txt": "/tcbb/static/js/2.902df446.chunk.js.LICENSE.txt",
     "static/media/tcbb_2dcon.48d89de0.webp": "/tcbb/static/media/tcbb_2dcon.48d89de0.webp",
     "static/media/App.css": "/tcbb/static/media/tcbb_bg.58fbd675.jpg",
     "static/media/tcbb_logo.3b049e97.webp": "/tcbb/static/media/tcbb_logo.3b049e97.webp",
     "static/media/tcbb_og.35047c55.webp": "/tcbb/static/media/tcbb_og.35047c55.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.979cf94c.js",
-    "static/js/2.b779d397.chunk.js",
-    "static/css/main.5fad90ec.chunk.css",
-    "static/js/main.830a95d2.chunk.js"
+    "static/js/runtime-main.0d5ef434.js",
+    "static/js/2.902df446.chunk.js",
+    "static/css/main.a608a589.chunk.css",
+    "static/js/main.b1211f38.chunk.js"
   ]
 }
