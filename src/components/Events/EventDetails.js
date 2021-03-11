@@ -22,7 +22,7 @@ const EventDetails = ({ event, modalId }) => {
                         <h3>Performances</h3>
                         <div className='d-flex flex-wrap'>
                             {event.performancesCollection.items.map(p => (
-                                <div className='flex-fill'>
+                                <div className='flex-fill' key={p.sys.id}>
                                     <PerformanceDetails performance={p} key={p.title} />
                                 </div>
                             ))}

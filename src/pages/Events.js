@@ -9,14 +9,11 @@ const Events = () => {
     eventCollection {
         items {
             title
-            slug
             description
             eventType
             poster {
                 description
                 url
-                width
-                height
             }
             performancesCollection (limit: 10) {
                 items {
@@ -30,7 +27,13 @@ const Events = () => {
                     }
                     datetime
                     livestreamUrl
+                    sys {
+                        id
+                    }
                 }
+            }
+            sys {
+                id
             }
         }
     }
