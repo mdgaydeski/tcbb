@@ -1,10 +1,10 @@
 import React from 'react';
-import DateFormat from '../Shared/DateFormat';
+import {dateFormat} from '../../utils';
 
 const PerformanceDetails = ({ performance }) => {
     return (
         <>
-            <strong>{performance.datetime ? <DateFormat date={performance.datetime} /> : 'Date/time TBA'}</strong><br />
+            <strong>{performance.datetime ? dateFormat(performance.datetime) : 'Date/time TBA'}</strong><br />
             {performance.location
                 ? <>
                     {performance.location.name}<br />

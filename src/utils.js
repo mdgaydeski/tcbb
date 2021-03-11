@@ -1,3 +1,7 @@
+import dayjs from 'dayjs';
+
+export const dateFormat = (date) => dayjs(date).format('dddd, MMMM D, YYYY h:mm A');
+
 export const orderEventsByDate = (eventList) => {
     const MAX_DATE_VALUE = 8640000000000000;
 
