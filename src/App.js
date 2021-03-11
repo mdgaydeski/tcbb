@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Navigation from './components/Navigation';
-import Home from './sections/Home';
-import About from './sections/About';
-import Contact from './sections/Contact';
-import Events from './sections/Events';
-import Media from './sections/Media';
-import Members from './sections/Members';
-import Footer from './components/Footer';
+import Navigation from './components/Shared/Navigation';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Events from './pages/Events';
+import Media from './pages/Media';
+import Members from './pages/Members';
+import Footer from './components/Shared/Footer';
 import './App.css';
 
 const App = () => (

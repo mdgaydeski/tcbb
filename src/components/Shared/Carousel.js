@@ -1,8 +1,8 @@
 import React from 'react';
 import './Carousel.css';
-import picture_og from '../resources/images/tcbb_og.webp';
-import picture_2dcon from '../resources//images/tcbb_2dcon.webp';
-import logo from '../resources//images/tcbb_logo.webp';
+import picture_og from '../../resources/images/tcbb_og.webp';
+import picture_2dcon from '../../resources/images/tcbb_2dcon.webp';
+import logo from '../../resources/images/tcbb_logo.webp';
 
 const Carousel = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import EventPoster from './EventPoster';
-import DateFormat from './DateFormat';
+import DateFormat from '../Shared/DateFormat';
 import './EventListing.css';
 
 const EventListing = ({ event }) => {

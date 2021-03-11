@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Markdown from './Markdown';
+import Markdown from '../Shared/Markdown';
 
 const MusicDirectorBio = () => {
     const [director, setDirector] = useState(null);

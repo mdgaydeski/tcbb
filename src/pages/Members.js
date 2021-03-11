@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import MusicDirectorBio from '../components/MusicDirectorBio';
-import MemberListing from '../components/MemberListing';
+import MusicDirectorBio from '../components/Members/MusicDirectorBio';
+import MemberListing from '../components/Members/MemberListing';
 
 const Members = () => {
     const [memberList, setMemberList] = useState([]);
