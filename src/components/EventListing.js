@@ -1,10 +1,11 @@
 import React from 'react';
+import EventPoster from './EventPoster';
 import './EventListing.css';
 
 const EventListing = ({ event }) => {
     return (
         <article className='card rounded-2 p-2 mb-3'>
-            {event.poster ? <img src={event.poster.url} alt={event.poster.description} className='card-image-top' /> : null}
+            {event.poster != null ? <EventPoster poster={event.poster} slug={event.slug} /> : null}
             <div className='card-body'>
                 <h3 className='card-title'>{event.title}</h3>
                 {event.performancesCollection.items.map(p => (

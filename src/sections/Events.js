@@ -9,6 +9,7 @@ const Events = () => {
     eventCollection {
         items {
             title
+            slug
             eventType
             poster {
                 description
