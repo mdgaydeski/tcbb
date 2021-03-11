@@ -5,7 +5,7 @@ import './Navigation.css';
 const Navigation = () => (
     <nav className='navbar navbar-expand-md navbar-dark bg-dark'>
         <div className='container-fluid'>
-            <NavLink className='navbar-brand' to='/'>Twin Cities Brass Band</NavLink>
+            <NavLink className='navbar-brand' to='/tcbb/'>Twin Cities Brass Band</NavLink>
             <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarCollapse' aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
                 <span className='navbar-toggler-icon'></span>
             </button>
