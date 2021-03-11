@@ -59,11 +59,19 @@ const Events = () => {
         });
     }, [query]);
 
+    const concerts = eventList.filter(e => e.eventType === 'Concert');
+    const otherEvents = eventList.filter(e => e.eventType === 'Other Event')
+
     return (
         <>
             <h1>Events</h1>
+            <h2>Upcoming Concerts</h2>
             <div className='d-flex flex-wrap justify-content-around'>
-                {eventList.map(e => <EventListing event={e} key={e.title} />)}
+                {concerts.map(e => <EventListing event={e} key={e.title} />)}
+            </div>
+            <h2>Other Events</h2>
+            <div className='d-flex flex-wrap justify-content-around'>
+                {otherEvents.map(e => <EventListing event={e} key={e.title} />)}
             </div>
             
         </>
