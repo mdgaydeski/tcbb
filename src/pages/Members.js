@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import MusicDirectorBio from '../components/Members/MusicDirectorBio';
 import MemberListing from '../components/Members/MemberListing';
+import {orderMembersByInstrument} from '../utils';
 
 const Members = () => {
     const [memberList, setMemberList] = useState([]);
@@ -12,6 +13,7 @@ const Members = () => {
             name
             instrument {
                 name
+                scoreOrder
             }
             boardMember
         }
@@ -34,7 +36,7 @@ const Members = () => {
               console.error(error);
             }
             
-            setMemberList(data.memberCollection.items);
+            setMemberList(orderMembersByInstrument(data.memberCollection.items));
         });
     }, [query]);
 
@@ -44,7 +46,10 @@ const Members = () => {
             <h2>Music Director</h2>
             <MusicDirectorBio />
             <h2>Current Members</h2>
-            {memberList.map(member => <MemberListing member={member} key={member.name} />)}
+            <div className= 'd-flex flex-wrap justify-content-around'>
+                {memberList.map(member => <MemberListing member={member} key={member.name} />)}
+            </div>
+            
           </>
       )
 
