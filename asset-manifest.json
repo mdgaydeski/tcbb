@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/tcbb/static/css/main.a608a589.chunk.css",
-    "main.js": "/tcbb/static/js/main.b1211f38.chunk.js",
-    "main.js.map": "/tcbb/static/js/main.b1211f38.chunk.js.map",
-    "runtime-main.js": "/tcbb/static/js/runtime-main.0d5ef434.js",
-    "runtime-main.js.map": "/tcbb/static/js/runtime-main.0d5ef434.js.map",
-    "static/js/2.902df446.chunk.js": "/tcbb/static/js/2.902df446.chunk.js",
-    "static/js/2.902df446.chunk.js.map": "/tcbb/static/js/2.902df446.chunk.js.map",
-    "static/js/3.78ea79f6.chunk.js": "/tcbb/static/js/3.78ea79f6.chunk.js",
-    "static/js/3.78ea79f6.chunk.js.map": "/tcbb/static/js/3.78ea79f6.chunk.js.map",
+    "main.css": "/tcbb/static/css/main.820dd59c.chunk.css",
+    "main.js": "/tcbb/static/js/main.503f3f03.chunk.js",
+    "main.js.map": "/tcbb/static/js/main.503f3f03.chunk.js.map",
+    "runtime-main.js": "/tcbb/static/js/runtime-main.7a8ccf1b.js",
+    "runtime-main.js.map": "/tcbb/static/js/runtime-main.7a8ccf1b.js.map",
+    "static/js/2.5ed848b9.chunk.js": "/tcbb/static/js/2.5ed848b9.chunk.js",
+    "static/js/2.5ed848b9.chunk.js.map": "/tcbb/static/js/2.5ed848b9.chunk.js.map",
+    "static/js/3.38cbb2ad.chunk.js": "/tcbb/static/js/3.38cbb2ad.chunk.js",
+    "static/js/3.38cbb2ad.chunk.js.map": "/tcbb/static/js/3.38cbb2ad.chunk.js.map",
     "index.html": "/tcbb/index.html",
-    "static/css/main.a608a589.chunk.css.map": "/tcbb/static/css/main.a608a589.chunk.css.map",
-    "static/js/2.902df446.chunk.js.LICENSE.txt": "/tcbb/static/js/2.902df446.chunk.js.LICENSE.txt",
+    "static/css/main.820dd59c.chunk.css.map": "/tcbb/static/css/main.820dd59c.chunk.css.map",
+    "static/js/2.5ed848b9.chunk.js.LICENSE.txt": "/tcbb/static/js/2.5ed848b9.chunk.js.LICENSE.txt",
+    "static/media/icon_instagram.d6b83586.png": "/tcbb/static/media/icon_instagram.d6b83586.png",
     "static/media/tcbb_2dcon.48d89de0.webp": "/tcbb/static/media/tcbb_2dcon.48d89de0.webp",
     "static/media/App.css": "/tcbb/static/media/tcbb_bg.58fbd675.jpg",
     "static/media/tcbb_logo.3b049e97.webp": "/tcbb/static/media/tcbb_logo.3b049e97.webp",
     "static/media/tcbb_og.35047c55.webp": "/tcbb/static/media/tcbb_og.35047c55.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d5ef434.js",
-    "static/js/2.902df446.chunk.js",
-    "static/css/main.a608a589.chunk.css",
-    "static/js/main.b1211f38.chunk.js"
+    "static/js/runtime-main.7a8ccf1b.js",
+    "static/js/2.5ed848b9.chunk.js",
+    "static/css/main.820dd59c.chunk.css",
+    "static/js/main.503f3f03.chunk.js"
   ]
 }
